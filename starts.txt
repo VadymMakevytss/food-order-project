@@ -1,0 +1,7 @@
+npm i -D husky  // Install husky for git management
+package.json add: "husky": {
+    "hooks": {
+      "pre-push": "CI=true npm test"
+    }
+},
+npm i -D eslint eslint-config-airbnb-base babel-eslint eslint-plugin-compat
